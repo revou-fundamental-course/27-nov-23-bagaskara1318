@@ -14,15 +14,43 @@
             <a href="">Keliling SegiTiga</a>
         </nav>
     </header>
-    <section class="input-luas-section">
+    <section class="input-luas-section">       
+<!-- luas segitiga -->
+        <img src="img/luas-segitiga.jpg" id="imgluas">
+
         <label for="input-alas" id="label-alas">Alas</label>
         <input type="number" id="input-alas" class="katikinput">
+        
         <label for="input-tinggi" id="label-tinggi">Tinggi</label>
         <input type="number" id="input-tinggi" class="katikinput">
+
         <div class="buttons">
-            <button>Hitung</button>
-            <button>Reset</button>
+            <button id="hitung-luas">Hitung</button>
+            <button id="reset-luas">Reset</button>
         </div>
+        <br>
+        <div id="output-luas"></div>
+
+<!-- keliling segitiga -->
+<br>
+        <img src="img/keliling-segitiga.jpg" id="imgkel">
+
+        <label for="input-sisiA" id="label-sisiA">Sisi a</label>
+        <input type="number" id="input-sisiA" class="katikinput">
+        
+        <label for="input-sisiB" id="label-sisiB">Sisi b</label>
+        <input type="number" id="input-sisiB" class="katikinput">
+
+        <label for="input-sisiC" id="label-sisiC">Sisi c</label>
+        <input type="number" id="input-sisiC" class="katikinput">
+
+        <div class="buttons">
+            <button id="hitung-kel">Hitung</button>
+            <button id="reset-kel">Reset</button>
+        </div>
+        <br>
+        <div id="output-kel"></div>
     </section>
+    <script src="js/script.js"></script>
 </body>
 </html>

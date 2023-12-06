@@ -34,12 +34,14 @@ label{
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: bold;
+    text-align: center;
 }
 
 .katikinput{
     outline: none;
     border-radius: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 .katikinput:focus{
@@ -70,5 +72,44 @@ button:hover{
 button:active{
     background-color: aquamarine;
     transform: translateY(2px);
-
 }
+
+#output-luas{
+    display: flex;
+    align-self: center;
+    gap: 50px;
+    margin-top: 10px;
+    background-color: skyblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+#output-kel{
+    display: flex;
+    align-self: center;
+    gap: 50px;
+    margin-top: 10px;
+    background-color: skyblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+#imgluas{
+    width: 500px;
+    align-self: center;
+}
+
+#imgkel{
+    width: 500px;
+    align-self: center;
+}
+
+/* #output-luas{
+    border-bottom: 3px solid turquoise;
+} */
