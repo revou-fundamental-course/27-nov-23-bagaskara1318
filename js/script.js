@@ -45,7 +45,7 @@
         let sa = sisia.value
         let sb = sisib.value
         let sc = sisic.value
-        let k = sa+sb+sc
+        let k = parseInt(sa) + parseInt(sb) + parseInt(sc)
         outputkel.innerHTML = `Keliling Segitiga adalah ${sa} + ${sb} + ${sc} = ${k}`
     })
 
