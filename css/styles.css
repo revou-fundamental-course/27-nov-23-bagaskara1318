@@ -15,6 +15,7 @@ body{
 .navigation{
     display: flex;
     width: 200px;
+    gap: 10px;
     align-items: flex-end;
 }
 
@@ -38,6 +39,9 @@ label{
 }
 
 .katikinput{
+    display: flex;
+    gap: 10px;
+    align-self: center;
     outline: none;
     border-radius: 5px;
     padding: 5px;
@@ -110,6 +114,6 @@ button:active{
     align-self: center;
 }
 
-/* #output-luas{
+#br{
     border-bottom: 3px solid turquoise;
-} */
+}
